@@ -220,7 +220,7 @@ function draw_screen(stats, colors, next_piece)
     set_color(colors[:text])
     TermWin.mvwprintw(stdscr,  9, x_labels, "%s", "Level $(stats[:level])")
     TermWin.mvwprintw(stdscr, 11, x_labels, "%s", "Lines $(stats[:lines])")
-    TermWin.mvwprintw(stdscr, 13, x_labels, "%s", "Socre $(stats[:score])")
+    TermWin.mvwprintw(stdscr, 13, x_labels, "%s", "Score $(stats[:score])")
     if game_state == :over then
         TermWin.mvwprintw(stdscr, 16, x_labels, "%s", "Game Over")
     end
