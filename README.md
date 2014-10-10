@@ -8,14 +8,16 @@ A falling block game written in [Julia](http://julialang.org), that runs in your
 Controlled with arrows (left, right, up is rotate, down is drop).
 
 
-## Install
+## Install and run
 
 `Termtris.jl` requires [TermWin.jl](https://github.com/tonyhffong/TermWin.jl) to be installed. Only tested on OSX in iTerm2, no guarantees anything works anywhere else.
 
 ```julia
-Pkg.add("TermWin")
-Pkg.clone("https://github.com/IainNZ/Termtris.jl.git")
+julia> Pkg.add("TermWin")
+julia> Pkg.clone("https://github.com/IainNZ/Termtris.jl.git")
 ```
+
+Then to run either `julia> using Termtris` or at the command line `julia -e 'using Termtris'`
 
 ## Credits
 
